@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangNhapActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="117dp"
+        android:text="Đăng nhập"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextEmail_DangNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="267dp"
+        android:layout_marginEnd="19dp"
+        android:hint="Email..."
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/buttonDangNhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="134dp"
+        android:text="Đăng nhập"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editTextPassword_DangNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="19dp"
+        android:hint="Password..."
+        android:inputType="textPassword"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="156dp"
+        android:gravity="center"
+        android:text="Chưa có tài khoản?"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewDangKy"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="122dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="Đăng ký"
+        android:textColor="#0A2998"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck" />
+</RelativeLayout>
